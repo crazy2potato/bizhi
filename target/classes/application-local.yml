@@ -33,14 +33,3 @@ knife4j:
         api-rule: package
         api-rule-resources:
           - com.tudou.tudoupicturebackend.controller
-# 对象存储配置（需要从腾讯云获取）
-cos:
-  client:
-    host: https://tudou-1357763766.cos.ap-shanghai.myqcloud.com
-    SecretId: AKIDEMK5fHsIVeptqcCZotw8B1jeQ0PdeS4V
-    SecretKey: Jbp5DB1kR1Sl6Rgjl085rRr8GB2xmPwP
-    region: ap-shanghai
-    bucket: tudou-1357763766
-  ## 阿里云 AI 配置
-aliYunAi:
-  apiKey: sk-d6e49e84fe974110911f960db5def83b
